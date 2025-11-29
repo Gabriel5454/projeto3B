@@ -14,6 +14,10 @@ import Ginastica from "./pages/Ginastica";
 import Lutas from "./pages/lutas";
 import Basquete from "./pages/Basquete";
 import Atletismo from "./pages/Atletismo";
+import Politica from "./pages/Politica";
+import Termos from "./pages/Termos";
+import Contato from "./pages/Contato";
+
 
 import "./App.css";
 
@@ -35,6 +39,10 @@ function App() {
           <Route path="/lutas" element={<Lutas />} />
           <Route path="/basquete" element={<Basquete />} />
           <Route path="/atletismo" element={<Atletismo />} />
+          <Route path="/politica" element={<Politica />} />
+          <Route path="/termos" element={<Termos />} />
+          <Route path="/contato" element={<Contato />} />
+
         </Routes>
       </Layout>
     </Router>
